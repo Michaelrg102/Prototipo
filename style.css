@@ -22,6 +22,10 @@ header{
     text-align: center;
 }
 
+p{
+    margin-top: 25px;
+}
+
 input{
     align-items: center;
     text-align: center;

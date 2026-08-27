@@ -4,7 +4,7 @@ const executar = () =>{
 
     const calculo = (barra * 6) * quantidade;
 
-    return document.getElementById("resposta").innerHTML =
+    return document.getElementById("resposta").innerHTML = "Total: " +
     calculo.toLocaleString("pt-BR", {
         minimumFractionDigits: 2,
         maximumFractionDigits: 3
