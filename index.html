@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cálculo Barras</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>Protótipo</header>
+
+    <div class="main_section">
+        <section>
+            <fieldset>
+                <label for="barra">Barra: </label>
+                
+                <select name="" id="opcao">
+                    <option value="0.321">12X3</option>
+                    <option value="0.529">20X3</option>
+                    <option value="0.882">20X5</option>
+                    <option value="0.663">25X3</option>
+                    <option value="1.11">25X5</option>
+                    <option value="2.66">30X10</option>
+                    <option value="1.77">40X5</option>
+                    <option value="3.65">40X10</option>
+                    <option value="2.22">50X5</option>
+                    <option value="4.44">50X10</option>
+                    <option value="2.66">60X5</option>
+                    <option value="5.33">60X10</option>
+                    <option value="3.55">80X5</option>
+                    <option value="7.11">80X10</option>
+                    <option value="4.44">100X5</option>
+                    <option value="8.89">100X10</option>
+                    <option value="14.2">160X10</option>
+
+
+                </select>
+
+                <label for="quantidade">Quantidade:</label>
+                <input type="number" id="quantidade">
+                <button onclick="executar()">Calcular</button>
+
+                <p id="resposta"></p>
+            </fieldset>
+        </section>
+    </div>
+
+
+    <footer>Mike Dev &copy;</footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
