@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
 }
 
 header{
@@ -15,7 +16,7 @@ header{
 .main_section{
     display: flex;
     flex-direction: row;
-    min-height: 100vh;
+    min-height: 81vh;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -29,8 +30,8 @@ input{
 #quantidade{
 
     text-align: center;
-    width: 61px;
-    height: 19px;
+    width: 160px;
+    height: 48px;
 }
 
 
